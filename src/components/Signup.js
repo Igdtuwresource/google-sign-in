@@ -25,7 +25,7 @@ const Signup = () => {
   return (
     <>
       <div className="p-4 box">
-        <h2 className="mb-3">ALL THE BEST</h2>
+        <h2 className="mb-3">SIGNUP </h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
