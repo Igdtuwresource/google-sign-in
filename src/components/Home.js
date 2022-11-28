@@ -20,15 +20,17 @@ const Home = () => {
         Hello, Welcome <br />
         
         {user && user.email}<br/><br/>
-        Special notes coming soon!!!<br/>
+        <a href="https://igdtuwresource.github.io/Filter-Page/" class="mylink">EXPLORE THE NOTES</a><br/>
       </div><br/>
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleLogout}>
           Log out
         </Button>
       </div>
+      
     </>
   );
 };
+
 
 export default Home;
