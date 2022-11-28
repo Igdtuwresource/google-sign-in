@@ -12,11 +12,25 @@ body {
 background-attachment: fixed;
  
 }
-
+.mylink{
+  color: white;
+  border-style: 1px solid transparent;
+  text-decoration:none;
+  border-radius: 10px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:5px;
+  padding-top:5px;
+  background-color: rgb(94, 94, 141);
+}
+.mylink:hover{
+background-color: black;
+color:white;
+}
 .box {
   
   border-radius: 10px;
-margin-left:35px;
+margin-left:50px;
   width: 80%;
   max-width: 400px;
    border-radius: 1rem;
