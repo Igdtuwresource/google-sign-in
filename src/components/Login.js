@@ -23,15 +23,6 @@ const Login = () => {
     }
   };
 
-  const handleGoogleSignIn = async (e) => {
-    e.preventDefault();
-    try {
-      await googleSignIn();
-      navigate("/home");
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
 
   return (
     <>
@@ -62,12 +53,9 @@ const Login = () => {
           </div>
         </Form>
         <hr />
-        <div>
-          <GoogleButton
-            className="g-btn"
-            type="dark"
-            onClick={handleGoogleSignIn}
-          />
+        <div className="forgot">
+Forgot Password? <a href="mailto:igdtuwresource@gmail.com">Email Us</a>
+          
         </div>
       </div>
       <div className="p-4 box mt-3 text-center">
