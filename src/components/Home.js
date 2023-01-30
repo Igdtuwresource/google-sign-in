@@ -20,7 +20,7 @@ const Home = () => {
         Hello, Welcome <br />
         
         {user && user.email}<br/><br/>
-        <a href="https://igdtuwresource.github.io/Filter-Page/" class="mylink">EXPLORE THE NOTES</a><br/>
+        <a href="https://igdtuwresource.github.io/buy-book/" class="mylink">BUY THE BOOKS</a><br/>
       </div><br/>
       <div className="d-grid gap-2">
         <Button variant="primary" onClick={handleLogout}>
